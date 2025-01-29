@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-HD-Solid-Color-Wallpaper-Download.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 300px;
+    background-color: #fee2e2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  button:hover{
+            background-color: #033137;
+            padding: 5px;
+            margin: auto;
+        } 
+        
+
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"]
+  {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; 
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover
+  {
+    background-color: #023805;
+  }
+
+  .links {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+  
